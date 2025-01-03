@@ -41,7 +41,7 @@ export class LoginComponent implements OnInit {
       const errorMessage = document.getElementById("loginError") as HTMLElement;
 
       if (isValidUser) {
-        window.location.href = "home.html";
+        window.location.href = "/home";
       } else {
         errorMessage.style.display = "block";
       }
